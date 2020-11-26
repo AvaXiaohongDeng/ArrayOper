@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class ArrayOper {
     public static void main(String[] args) {
         String[] names = {"Henry", "Ava", "Yoyo", "Andy"};
@@ -6,6 +8,10 @@ public class ArrayOper {
         display(names);
         display(ages);
         display(highs);
+
+        //try sort method
+        Arrays.sort(names);
+        display(names);
     }
 
     public static void display(String[] arr){
